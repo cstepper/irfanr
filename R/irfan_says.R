@@ -2,22 +2,15 @@
 #'
 #' @author Christoph Stepper
 #'
-#' @param x \code{numeric} vector of values whose weighted mean is to be coputed.
-#' @param w \code{numeric} vector of weights with the same length as \code{x}.
-#' @param na.rm \code{logical}; if \code{TRUE} (default), \code{NA} values
-#'   in \code{x} are stripped before the computation proceeds.
+#' @param saying \code{character}. You can specify, which saying you'd like
+#'   to be printed. By default (\code{NULL}), it takes a random sample.
 #'
-#' @return \code{numeric} vector of length one.
+#' @return NULL
 #'
 #' @examples
-#'   x =  rnorm(n = 10, mean = 100, sd = 20)
-#'   w = sample(x = 10:30, size = 10, replace = TRUE)
-#'   wtd_mean(x, w)
+#'  irfan_says(saying = "coffee")
 #'
-#' @seealso See \code{\link[stats]{weighted.mean}} for the corresponding
-#'   \code{stats} function.
-#'
-#' @importFrom Hmisc wtd.mean
+#' @importFrom cli cat_rule get_spinner symbol
 #'
 #' @export
 irfan_says = function(saying = NULL) {

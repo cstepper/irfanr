@@ -7,28 +7,15 @@
 irfan_says(saying = NULL)
 }
 \arguments{
-\item{x}{\code{numeric} vector of values whose weighted mean is to be coputed.}
-
-\item{w}{\code{numeric} vector of weights with the same length as \code{x}.}
-
-\item{na.rm}{\code{logical}; if \code{TRUE} (default), \code{NA} values
-in \code{x} are stripped before the computation proceeds.}
-}
-\value{
-\code{numeric} vector of length one.
+\item{saying}{\code{character}. You can specify, which saying you'd like
+to be printed. By default (\code{NULL}), it takes a random sample.}
 }
 \description{
 Irfan says
 }
 \examples{
-  x =  rnorm(n = 10, mean = 100, sd = 20)
-  w = sample(x = 10:30, size = 10, replace = TRUE)
-  wtd_mean(x, w)
+ irfan_says(saying = "coffee")
 
-}
-\seealso{
-See \code{\link[stats]{weighted.mean}} for the corresponding
-  \code{stats} function.
 }
 \author{
 Christoph Stepper
