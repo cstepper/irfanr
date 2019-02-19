@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 # irfanr
 
 This package is a collection of the best sayings from my colleague Irfan.
+It may grow in future.
 
 ## Installation
 
