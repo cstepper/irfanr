@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# irfanr
+
+This package is a collection of the best sayings from my colleague Irfan.
+
+## Installation
+
+This package can only be installed from GitHub.
+
+``` r
+library('remotes')
+install_github("cstepper/irfanr")
+```
+
+## Example
+
+This is a basic example which prints one sample saying:
+
+```{r example}
+library('irfanr')
+irfan_says()
+```
+
