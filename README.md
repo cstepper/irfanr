@@ -17,12 +17,15 @@ install_github("cstepper/irfanr")
 
 ## Example
 
-This is a basic example which prints one sample saying:
+This is a basic example which prints one sample
+saying:
+
+<!-- add the monkey to the knitted md file, I don't know how to get this done -->
 
 ``` r
 library('irfanr')
 irfan_says()
-#> -- Irfan says ... ----------------------------------------------------------------------------------------------------------
-#>                                                                    <U+0001F64A>  Everything is possible, if you have time and money.   
-#> ----------------------------------------------------------------------------------------------------------------------------
+#> -- Irfan says ... --------------------------------------------------------------
+#>                                             🙊 This is the recipe of desaster.   
+#> --------------------------------------------------------------------------------
 ```

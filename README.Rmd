@@ -11,7 +11,18 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+
+knitr::knit_hooks$set(
+  r.options = local({
+    ropts <- NA
+    function(before, options, envir) {
+      if (before) ropts <<- options(options$r.options)
+      else options(ropts)
+    }
+  }))
+
 ```
+
 # irfanr
 
 This package is a collection of the best sayings from my colleague Irfan.
@@ -30,8 +41,11 @@ install_github("cstepper/irfanr")
 
 This is a basic example which prints one sample saying:
 
-```{r example}
+<!-- add the monkey to the knitted md file, I don't know how to get this done -->
+```{r example, r.options=list(cli.width=80)}
 library('irfanr')
 irfan_says()
 ```
+
+
 
