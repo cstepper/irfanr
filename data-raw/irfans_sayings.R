@@ -7,6 +7,6 @@ sayings =
     "tomtom" = "Please always check carefully, because that's Tomtom."
   )
 
-usethis::use_data(sayings, internal = TRUE, overwrite = TRUE)
+usethis::use_data(sayings, overwrite = TRUE)
 
 
