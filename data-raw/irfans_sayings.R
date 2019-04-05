@@ -3,7 +3,8 @@ sayings =
     "devil" = "Devil is always in details.",
     "desaster" =  "This is the recipe of desaster.",
     "possibe" = "Everything is possible, if you have time and money.",
-    "coffee" = "Never say NO to free coffee."
+    "coffee" = "Never say NO to free coffee.",
+    "tomtom" = "Please always check carefully, because that's Tomtom."
   )
 
 usethis::use_data(sayings, internal = TRUE, overwrite = TRUE)
