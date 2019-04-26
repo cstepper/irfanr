@@ -3,8 +3,8 @@
 
 # irfanr
 
-This package is a collection of the best sayings from my colleague
-Irfan. It may grow in future.
+A collection of the best sayings from my colleague Irfan. It may grow in
+future.
 
 ## Installation
 
@@ -26,6 +26,6 @@ saying:
 library('irfanr')
 irfan_says()
 #> -- Irfan says ... --------------------------------------------------------------
-#>                                             🙊 This is the recipe of desaster.   
+#>                                             🙊 This is the recipe of desaster.    
 #> --------------------------------------------------------------------------------
 ```
